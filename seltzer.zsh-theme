@@ -24,7 +24,7 @@ pr="%{$fg[white]%}~>"
 
 # i would prefer 1 icon that shows the "most drastic" deviation from HEAD,
 # but lets see how this works out
-ZSH_THEME_GIT_PROMPT_PREFIX="${on} %{$fg[yellow]%} "
+ZSH_THEME_GIT_PROMPT_PREFIX="${on}%{$fg[yellow]%} "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[green]%}%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}"
