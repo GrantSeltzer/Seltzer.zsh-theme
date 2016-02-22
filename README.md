@@ -3,7 +3,7 @@
 My customized zsh theme
 
 This theme will provide you with useful information for productivity and little
-bullshit by using color-coding and slight visual cues.
+BS by using color-coding and slight visual cues.
 When a command is exited the timestamp will be in red, exit code
 on the right. This was inspired by the theme called dieter.
 
