@@ -1,8 +1,3 @@
-# This theme will provide you with useful information for productivity and little
-# bullshit by using color-coding and slight visual cues 
-# When a command is exited the timestamp will be in red, exit code
-# on the right. This was inspired by the theme called dieter
-
 typeset -A host_repr
 
 # local time, color coded by last return code
@@ -11,12 +6,13 @@ time_disabled="%{$fg[green]%}%*%{$reset_color%}"
 time=$time_enabled
 
 # user part, color coded by privileges
-local user="%(!.%{$fg[blue]%}.%{$fg[blue]%})%n%{$reset_color%}"
+local user="%(!.%{$fg[blue]%}.%{$fg[red]%})%n%{$reset_color%}"
 
 # Compacted $PWD
 local pwd="%{$fg[green]%}%c%{$reset_color%}"
 
-PROMPT='${time} ${user} ${in} ${pwd} $(git_prompt_info)${pr}%{$fg[white]%} '
+PROMPT='${time} ${user} ${in} ${pwd} $(git_prompt_info)%{$fg[green]%}
+[%{$fg[green]%}*%{$fg[green]%}] %{$fg[white]%}'
 
 in="%{$fg[white]%}in ~>"
 on="%{$fg[white]%}on ~>"
