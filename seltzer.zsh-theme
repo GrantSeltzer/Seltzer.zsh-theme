@@ -11,7 +11,8 @@ local user="%(!.%{$fg[blue]%}.%{$fg[red]%})%n%{$reset_color%}"
 # Compacted $PWD
 local pwd="%{$fg[green]%}%c%{$reset_color%}"
 
-PROMPT='${time} ${user} ${in} ${pwd} $(git_prompt_info)%{$fg[green]%}
+PROMPT='
+${time} ${user} ${in} ${pwd} $(git_prompt_info)%{$fg[green]%}
 [%{$fg[green]%}*%{$fg[green]%}] %{$fg[white]%}'
 
 in="%{$fg[white]%}in ~>"
