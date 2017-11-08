@@ -14,3 +14,5 @@ If you want to use this theme download the file and place it in /home/$USER/.oh-
 ZSH_THEME="seltzer"
 
 Enjoy!
+
+![image](https://user-images.githubusercontent.com/10857349/32556556-c1b6d33e-c46d-11e7-89bb-6c2c3948a1cb.png)
